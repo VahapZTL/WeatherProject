@@ -1,5 +1,6 @@
 package com.vahapoztel.weatherproject;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,7 +19,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class WeatherActivitiy extends AppCompatActivity {
+public class WeatherActivitiy extends Activity {
 
     TextView lon, lat, hava, derece;
     Button havaDurumu;
